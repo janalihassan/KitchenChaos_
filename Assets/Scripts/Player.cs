@@ -6,27 +6,12 @@ public class Player : MonoBehaviour
 {
     [SerializeField]
     private float moveSpeed;
+    [SerializeField]
+    private GameInput gameInput;
     private bool isWalking;
     void Update()
     {
-        Vector2 InputVector = new Vector2(0,0);
-        if (Input.GetKey(KeyCode.W))
-        {
-            InputVector.y = +1;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            InputVector.y = -1;
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            InputVector.x = +1;
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            InputVector.x = -1;
-        }
-        InputVector = InputVector.normalized;
+        Vector2 InputVector = gameInput.GetMovementNormalized();
 
         Vector3 moveDir = new Vector3(InputVector.x,0f, InputVector.y);
         transform.position += moveDir * moveSpeed * Time.deltaTime;
