@@ -122,6 +122,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &61031016 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8010318446014162775, guid: 61ae6d5f37aae9842a34baf6ef19da8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 929819153}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f3fd8d835d9bd34c90e6ca59755693e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,6 +903,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 8010318446014162775, guid: 61ae6d5f37aae9842a34baf6ef19da8b,
         type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010318446014162775, guid: 61ae6d5f37aae9842a34baf6ef19da8b,
+        type: 3}
       propertyPath: kitchenObjects
       value: 
       objectReference: {fileID: 11400000, guid: 18ddd42206263424280daab702a4b842,
@@ -906,6 +923,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 18ddd42206263424280daab702a4b842,
         type: 2}
+    - target: {fileID: 8010318446014162775, guid: 61ae6d5f37aae9842a34baf6ef19da8b,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 61031016}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
