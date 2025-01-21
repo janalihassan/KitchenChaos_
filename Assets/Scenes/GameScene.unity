@@ -539,11 +539,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8010318446014162775, guid: 61ae6d5f37aae9842a34baf6ef19da8b,
+        type: 3}
+      propertyPath: Tomato
+      value: 
+      objectReference: {fileID: 4910284790885805659, guid: 1a48b9656be5e14419d38ef586216faf,
+        type: 3}
+    - target: {fileID: 8010318446014162775, guid: 61ae6d5f37aae9842a34baf6ef19da8b,
+        type: 3}
+      propertyPath: kitchenObjects
+      value: 
+      objectReference: {fileID: 11400000, guid: 08128f5d696ce7840b1021f6ad0fcbb8,
+        type: 2}
+    - target: {fileID: 8010318446014162775, guid: 61ae6d5f37aae9842a34baf6ef19da8b,
+        type: 3}
+      propertyPath: counterTopPoint
+      value: 
+      objectReference: {fileID: 929819154}
+    - target: {fileID: 8010318446014162775, guid: 61ae6d5f37aae9842a34baf6ef19da8b,
+        type: 3}
+      propertyPath: kitchenObjectsSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 08128f5d696ce7840b1021f6ad0fcbb8,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61ae6d5f37aae9842a34baf6ef19da8b, type: 3}
+--- !u!4 &929819154 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2417995098901851254, guid: 61ae6d5f37aae9842a34baf6ef19da8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 929819153}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1142087290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -854,11 +883,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter
       objectReference: {fileID: 0}
+    - target: {fileID: 8010318446014162775, guid: 61ae6d5f37aae9842a34baf6ef19da8b,
+        type: 3}
+      propertyPath: Tomato
+      value: 
+      objectReference: {fileID: 5999505874864164785, guid: ceda8af92409d0c47a6162551bf686c4,
+        type: 3}
+    - target: {fileID: 8010318446014162775, guid: 61ae6d5f37aae9842a34baf6ef19da8b,
+        type: 3}
+      propertyPath: kitchenObjects
+      value: 
+      objectReference: {fileID: 11400000, guid: 18ddd42206263424280daab702a4b842,
+        type: 2}
+    - target: {fileID: 8010318446014162775, guid: 61ae6d5f37aae9842a34baf6ef19da8b,
+        type: 3}
+      propertyPath: counterTopPoint
+      value: 
+      objectReference: {fileID: 6762991989106249245}
+    - target: {fileID: 8010318446014162775, guid: 61ae6d5f37aae9842a34baf6ef19da8b,
+        type: 3}
+      propertyPath: kitchenObjectsSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 18ddd42206263424280daab702a4b842,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61ae6d5f37aae9842a34baf6ef19da8b, type: 3}
+--- !u!4 &6762991989106249245 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2417995098901851254, guid: 61ae6d5f37aae9842a34baf6ef19da8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6762991989106249244}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
