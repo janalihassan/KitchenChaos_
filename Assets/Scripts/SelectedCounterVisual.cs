@@ -5,9 +5,9 @@ using UnityEngine;
 public class SelectedCounterVisual : MonoBehaviour
 {
     [SerializeField]
-    private ClearCounter clearCounter;
+    private BaseCounter clearCounter;
     [SerializeField]
-    private GameObject CounterVisual;
+    private GameObject[] CounterVisual;
 
     private void Start()
     {
@@ -28,10 +28,16 @@ public class SelectedCounterVisual : MonoBehaviour
 
     private void Show()
     {
-        CounterVisual.SetActive(true);
+        foreach (GameObject CounterVisual in CounterVisual)
+        {
+            CounterVisual.SetActive(true);
+        }
     }
     private void Hide()
     {
-        CounterVisual.SetActive(false);
+        foreach (GameObject CounterVisual in CounterVisual)
+        {
+            CounterVisual.SetActive(false);
+        }
     }
 }
