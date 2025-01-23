@@ -7,7 +7,7 @@ public class KitchenObjects : MonoBehaviour
     [SerializeField]
     private KitchenObjectsSO kitchenObjectsSo;
     private IkitchenObjectParent iKitchenParent;
-    public KitchenObjectsSO GetKitchenObject()
+    public KitchenObjectsSO GetKitchenObjectSO()
     {
         return kitchenObjectsSo;
     }
