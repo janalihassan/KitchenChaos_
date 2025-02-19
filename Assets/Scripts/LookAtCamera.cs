@@ -12,7 +12,7 @@ public class LookAtCamera : MonoBehaviour
         CameraForwardinverted,
     }
 
-
+    
     [SerializeField] private Mode mode;
 
     private void LateUpdate()
